@@ -1,0 +1,21 @@
+Artificial Intelligence (AI) Basics
+
+Artificial Intelligence refers to the simulation of human intelligence in machines.
+These machines are programmed to think like humans and mimic their actions.
+
+Machine Learning (ML) is a subset of AI that enables systems to learn and improve from experience.
+Instead of being explicitly programmed, ML algorithms use statistical techniques to learn patterns.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers.
+These deep neural networks can learn complex patterns from large amounts of data.
+
+Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language.
+Applications include chatbots, translation, and sentiment analysis.
+
+Computer Vision enables machines to interpret and understand visual information from the world.
+It's used in facial recognition, object detection, and autonomous vehicles.
+
+Robotics combines AI with mechanical engineering to create intelligent machines.
+Robots can perform tasks autonomously or with human guidance.
+
+These technologies are transforming industries and creating new possibilities.

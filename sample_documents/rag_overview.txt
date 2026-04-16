@@ -1,0 +1,24 @@
+Retrieval-Augmented Generation (RAG) Overview
+
+RAG combines retrieval-based methods with generative language models.
+The system first retrieves relevant documents from a knowledge base.
+Then it uses a language model to generate answers based on the retrieved content.
+
+Key Components:
+1. Document Loader: Loads and parses documents from various formats
+2. Text Splitter: Splits documents into manageable chunks
+3. Vector Store: Stores document embeddings for semantic search
+4. Retriever: Finds relevant documents for a given query
+5. Generator: Language model that generates answers
+
+Benefits:
+- Reduces hallucination in language models
+- Improves factual accuracy
+- Allows incorporation of up-to-date information
+- Enables domain-specific knowledge integration
+
+Applications:
+- Question answering systems
+- Research assistants
+- Customer support chatbots
+- Document analysis tools
