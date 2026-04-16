@@ -1,0 +1,50 @@
+Docker容器和虚拟机的核心区别是什么？ 容器,虚拟机,内核
+如何将主机8080映射到容器80端口？ 端口,映射,-p
+后台启动名为my-nginx的Nginx容器命令？ 启动,nginx,后台
+Dockerfile中COPY和ADD有什么区别？ copy,add,解压
+如何进入正在运行的容器内部？ exec,进入,容器
+Docker镜像分层存储的好处是什么？ 分层,存储,共享
+如何清理无用容器与镜像？ prune,清理,资源
+.dockerignore文件作用是什么？ 忽略,打包,体积
+Docker Compose中links和自定义网络区别？ links,网络,dns
+容器化应用从开发到上线的流程？ 构建,镜像,部署
+ArrayList和LinkedList区别？ 数组,链表,随机访问
+JVM运行时数据区包含哪些？ 堆,栈,方法区
+volatile能保证原子性吗？ volatile,原子性,可见性
+Java内存模型JMM解决什么问题？ 线程,可见性,有序性
+Spring Bean生命周期是怎样的？ 实例化,初始化,销毁
+JDK8 HashMap做了什么改进？ 红黑树,链表,优化
+线程池核心参数有哪些？ 核心线程,队列,拒绝策略
+Spring如何解决循环依赖？ 循环依赖,三级缓存,提前引用
+MinorGC和MajorGC分别回收哪里？ 新生代,老年代,gc
+重写equals为何必须重写hashCode？ equals,hashcode,集合
+transient关键字作用？ 序列化,忽略,字段
+Spring AOP切面切点通知是什么？ aop,切面,切点
+synchronized和ReentrantLock区别？ 锁,同步,可重入
+泛型extends和super含义？ 泛型,上限,下限
+双亲委派模型好处？ 类加载,安全,防止重复
+POJO为何禁用基本类型用包装类？ 基本类型,包装类,null
+数据库主键推荐用什么类型？ 主键,bigint,id
+为什么禁止SELECT * 查询？ select*,索引,io
+接口返回字段命名规范？ 字段,驼峰,命名
+catch块为何禁止e.printStackTrace()？ 日志,异常,堆栈
+联合索引建立顺序原则？ 索引,区分度,最左前缀
+常量为何要求全部大写？ 常量,大写,魔法值
+日志打印异常正确方式？ error,日志,异常
+代码中魔法数值如何处理？ 魔法值,常量,枚举
+布尔属性为何不能以is开头？ 布尔,序列化,is开头
+表为何必须有gmt_create/gmt_modified？ 时间,字段,审计
+远程调用为何禁止传null？ rpc,null,空指针
+if/for代码块必须使用大括号吗？ 大括号,规范,单行
+SQL为什么慎用OR？ or,索引,失效
+类和方法注释必须包含什么？ 注释,参数,返回值
+数据库表名字段名规范？ 表名,下划线,小写
+为何禁止存储过程与触发器？ 存储过程,触发器,维护
+@Transactional建议加在哪里？ 事务,实现类,方法
+业务状态为何必须用枚举？ 状态,枚举,语义
+为何禁止手动new Thread？ 线程,线程池,复用
+为何禁止System.out.println？ syso,日志,性能
+if嵌套层数建议不超过几层？ 嵌套,层数,重构
+为何禁止BigDecimal.equals比较？ bigdecimal,equals,精度
+接口返回为什么禁止null？ 返回值,空集合,null
+业务异常与系统异常区别？ 业务异常,系统异常,可预知
